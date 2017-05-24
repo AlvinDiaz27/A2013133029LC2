@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2013133029_ENT
+namespace _2013133029_ENT.IRepositories
 {
-    class Program
+    public interface IATMRepository : IRepository<ATM>
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

@@ -7,7 +7,7 @@
     <ProjectGuid>{4BE78AE7-5C9E-4286-BA94-9003DAC6141A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_2013133029_ENT</RootNamespace>
-    <AssemblyName>_2013133029_ENT</AssemblyName>
+    <AssemblyName>2013133029-ENT</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Entidades\ATM.cs" />
+    <Compile Include="Entidades\BaseDatos.cs" />
+    <Compile Include="Entidades\Cuenta.cs" />
+    <Compile Include="Entidades\DispensadorEfectivo.cs" />
+    <Compile Include="Entidades\Pantalla.cs" />
+    <Compile Include="Entidades\RanuraDeposito.cs" />
+    <Compile Include="Entidades\Retiro.cs" />
+    <Compile Include="Entidades\Teclado.cs" />
+    <Compile Include="IRepositories\IATMRepository.cs" />
+    <Compile Include="IRepositories\IBaseDatosRepository.cs" />
+    <Compile Include="IRepositories\ICuentaRepository.cs" />
+    <Compile Include="IRepositories\IDispensadorEfectivoRepository.cs" />
+    <Compile Include="IRepositories\IPantallaRepository.cs" />
+    <Compile Include="IRepositories\IRanuraDepositoRepository.cs" />
+    <Compile Include="IRepositories\IRepository.cs" />
+    <Compile Include="IRepositories\IRetiroRepository.cs" />
+    <Compile Include="IRepositories\ITecladoRepository.cs" />
+    <Compile Include="IRepositories\IUnityOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
